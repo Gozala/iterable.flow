@@ -1,0 +1,12 @@
+{
+  "sourceMaps": "inline",
+  "comments": false,
+  "presets": [
+    "flow-node"
+  ],
+  "plugins": [
+    "transform-async-generator-functions",
+    "syntax-async-generators",
+    "babel-plugin-transform-async-to-generator"
+  ]
+}
